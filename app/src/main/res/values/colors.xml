@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03b290</color>
+    <color name="colorPrimaryDark">#049a7c</color>
+    <color name="colorAccent">#6a7999</color>
+    <color name="backround_color">#edeff2</color>
+    <color name="item_background_color">#ffffff</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="white">#ffffff</color>
+    <color name="amber_100">#FFECB3</color>
+    <color name="amber_300">#FFD54F</color>
+    <color name="amber_500">#e9bd06</color>
+    <color name="red_light_100">#FF8A80</color>
+    <color name="red_light_200">#FF5252</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+    <color name="red_primary">#ff5252</color>
+    <color name="red_primary_dark">#f91515</color>
+    <color name="text_color_grey">#7e848c</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="progress_color">#ff33b5e5</color>
+    <color name="blue_900">#0D47A1</color>
+    <color name="green_a_700">#00C853</color>
+    <color name="tint_color">#6a7999</color>
+    <color name="indigo_400">#5C6BC0</color>
+    <color name="blue_org">#1abc9c</color>
+</resources>

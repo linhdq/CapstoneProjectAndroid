@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_view"
+        android:layoutAnimation="@anim/layout_animation"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:id="@+id/imv_camera_button"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/custom_button_camera_oval"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/ic_camera"
+        android:tint="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/imv_qr_code_button"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_background_pressed"
+        android:padding="@dimen/_2sdp"
+        android:src="@mipmap/ic_qr_code"
+        android:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/imv_gallery_button"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_background_pressed"
+        android:padding="@dimen/_2sdp"
+        android:src="@mipmap/ic_gallery"
+        android:tint="@color/white" />
+</RelativeLayout>

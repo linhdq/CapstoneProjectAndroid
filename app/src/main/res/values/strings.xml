@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">BCS</string>
+    <string name="app_version">Version 1.0.1</string>
+    <!--drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_language">Language</string>
+    <string name="about">About US</string>
+    <string name="feedback">Feedback</string>
+    <string name="language_management">Language Management</string>
+    <string name="rotate">Rotate</string>
+    <string name="crop">Crop</string>
+
+    <string name="progress_analyse_layout">I\'m analysing the layout. Please wait some seconds.
+    </string>
+    <string name="progress_image_detection">Searching for text</string>
+    <string name="progress_assemble_pix">I\'m assembling the final picture now.</string>
+    <string name="progress_dewarp">Straightening text</string>
+    <string name="progress_ocr">Reading text</string>
+    <string name="error_title">Error</string>
+    <string name="error_tess_init">Internal OCR Error. Please reinstall the app or the language
+        data.
+    </string>
+    <string name="config_share_file_dir" translatable="false">original_images/</string>
+    <string name="permission_explanation">I need permission to read and write to your SD card. I
+        will access the folder texfee which contains my configuration file and your scanned
+        documents.
+    </string>
+    <string name="saving_document">Saving Document</string>
+    <string name="error_create_file">I\'m sorry but was not able to store your photo on the SD
+        card.
+    </string>
+
+    <!--dialog waring blurry-->
+    <string name="waring_blurry_title">The image is very blurry</string>
+    <string name="waring_blurry_content">I won\'t be able to detect the info correctly!</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_new_image">New image</string>
+    <!--dialog confirmation-->
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_start">Start</string>
+    <string name="txt_bad">Bad</string>
+    <string name="txt_not_good">Not good</string>
+    <string name="txt_good">Good</string>
+    <string name="txt_choose_your_card_language">Choose your card\'s language</string>
+    <string name="confirmation">Confirmation</string>
+
+    <!---->
+    <string name="download_manager_disabled">DownloadManager is disabled. Please enable it.</string>
+    <string name="ok">OK</string>
+    <string name="delete_language_title">Delete %1$s?</string>
+    <string name="cancel_download_language">Stop downloading %1$s language?</string>
+    <string name="delete_language_message">You will free up %1$.2f MB.</string>
+    <!--manage language activity-->
+    <string-array name="ocr_languages" translatable="false">
+        <item>eng English</item>
+        <item>tha Thai</item>
+        <item>kor Korean</item>
+        <item>fra French</item>
+        <item>jpn Japanese</item>
+        <item>chi_sim Chinese (Simplified)</item>
+        <item>chi_tra Chinese (Traditional)</item>
+        <item>vie Vietnamese</item>
+    </string-array>
+
+    <string-array name="ho_vietnam">
+        <item>NGUYEN</item>
+        <item>TRAN</item>
+        <item>LE</item>
+        <item>PHAM</item>
+        <item>HOANG</item>
+        <item>HUYNH</item>
+        <item>PHAN</item>
+        <item>VU</item>
+        <item>VO</item>
+        <item>DANG</item>
+        <item>BUI</item>
+        <item>DO</item>
+        <item>HO</item>
+        <item>NGO</item>
+        <item>KIM</item>
+        <item>DUONG</item>
+        <item>LY</item>
+        <item>AN</item>
+        <item>ANH</item>
+        <item>AU</item>
+        <item>BA</item>
+        <item>BAC</item>
+        <item>BACH</item>
+        <item>BANG</item>
+        <item>BANH</item>
+        <item>BAO</item>
+        <item>BUU</item>
+        <item>BE</item>
+        <item>BI</item>
+        <item>BIEN</item>
+        <item>BO</item>
+        <item>CA</item>
+        <item>CAI</item>
+        <item>CAM</item>
+        <item>CAO</item>
+        <item>CAT</item>
+        <item>CAN</item>
+        <item>CHE</item>
+        <item>CHIEM</item>
+        <item>CHU</item>
+        <item>CHAU</item>
+        <item>CHUNG</item>
+        <item>CHUONG</item>
+        <item>CO</item>
+        <item>CU</item>
+        <item>CUNG</item>
+        <item>DA</item>
+        <item>DANH</item>
+        <item>DOAN</item>
+        <item>DU</item>
+        <item>DAM</item>
+        <item>DAN</item>
+        <item>DON</item>
+        <item>DAO</item>
+        <item>DAU</item>
+        <item>DIEN</item>
+        <item>DINH</item>
+        <item>DONG</item>
+        <item>DOI</item>
+        <item>DAI</item>
+        <item>DUONG</item>
+        <item>GIA</item>
+        <item>GIAO</item>
+        <item>GIANG</item>
+        <item>GIAP</item>
+        <item>HA</item>
+        <item>HAN</item>
+        <item>HINH</item>
+        <item>HOA</item>
+        <item>HONG</item>
+        <item>HUNG</item>
+        <item>HUA</item>
+        <item>KHAU</item>
+        <item>KHUU</item>
+        <item>KHONG</item>
+        <item>KHU</item>
+        <item>KHUAT</item>
+        <item>KHUC</item>
+        <item>KIEU</item>
+        <item>KIM</item>
+        <item>LA</item>
+        <item>LAC</item>
+        <item>LAI</item>
+        <item>LAM</item>
+        <item>LEU</item>
+        <item>LIEU</item>
+        <item>LUC</item>
+        <item>LU</item>
+        <item>LO</item>
+        <item>LUONG</item>
+        <item>LUU</item>
+        <item>MA</item>
+        <item>MAC</item>
+        <item>MACH</item>
+        <item>MAI</item>
+        <item>MANG</item>
+        <item>MOC</item>
+        <item>NHAM</item>
+        <item>NHIEM</item>
+        <item>NGHIEM</item>
+        <item>NGUY</item>
+        <item>NHU</item>
+        <item>NONG</item>
+        <item>ONG</item>
+        <item>PHI</item>
+        <item>PHO</item>
+        <item>PHUNG</item>
+        <item>PHUONG</item>
+        <item>QUAN</item>
+        <item>QUACH</item>
+        <item>TA</item>
+        <item>TAO</item>
+        <item>TANG</item>
+        <item>THACH</item>
+        <item>THAI</item>
+        <item>THAN</item>
+        <item>THAP</item>
+        <item>THI</item>
+        <item>THIEU</item>
+        <item>THINH</item>
+        <item>THOI</item>
+        <item>TIEU</item>
+        <item>TONG</item>
+        <item>TO</item>
+        <item>TON</item>
+        <item>TRA</item>
+        <item>TRAC</item>
+        <item>TRIEU</item>
+        <item>TRINH</item>
+        <item>TRUNG</item>
+        <item>TRUONG</item>
+        <item>TU</item>
+        <item>UONG</item>
+        <item>VAN</item>
+        <item>VI</item>
+        <item>VIEN</item>
+        <item>VUONG</item>
+        <item>XA</item>
+        <item>YEN</item>
+    </string-array>
+</resources>

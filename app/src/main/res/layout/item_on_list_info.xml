@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_switcher"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:inAnimation="@anim/fade_in"
+    android:outAnimation="@anim/fade_out">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey_400" />
+
+        <ImageView
+            android:id="@+id/btn_edit"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/custom_circle_button"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/icon_edit"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toLeftOf="@id/btn_edit"
+            android:background="@drawable/custom_edit_text"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:textColor="@color/grey_900"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center_vertical"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey_400" />
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/custom_circle_button"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_minus"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/btn_done"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toLeftOf="@id/btn_delete"
+            android:background="@drawable/custom_circle_button"
+            android:padding="@dimen/_5sdp"
+            android:src="@mipmap/ic_check"
+            android:tint="@color/white" />
+
+        <EditText
+            android:id="@+id/edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toLeftOf="@id/btn_done"
+            android:background="@drawable/custom_edit_text"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:textColor="@color/grey_900"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center_vertical"
+            />
+    </RelativeLayout>
+</ViewSwitcher>
